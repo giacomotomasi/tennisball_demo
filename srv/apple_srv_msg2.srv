@@ -1,0 +1,6 @@
+sensor_msgs/Image image
+sensor_msgs/PointCloud2 point_cloud
+---
+geometry_msgs/PoseArray apples_pose
+uint8 detected_objects
+uint8 rejected_objects

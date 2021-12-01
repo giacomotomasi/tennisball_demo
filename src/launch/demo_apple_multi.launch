@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="zed_devel" type="stream_apple_detection_multi.py" name="zed_apple_detection_multi" ns="vision" />
+  <node pkg="zed_devel" type="apple_location_multi.py" name="zed_get_apple_location_multi" ns="vision" output="screen"/>
+  <node pkg="zed_devel" type="ur5e_node_multi.py" name="ur5e_node_multi" ns="ur5e_robot" output="screen"/>
+</launch>

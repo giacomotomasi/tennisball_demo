@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="zed_devel" type="stream_apple_det.py" name="zed_apple_detection" ns="giacomo" />
+  <node pkg="zed_devel" type="apple_location.py" name="zed_get_apple_location" ns="giacomo" output="screen"/>
+  <node pkg="zed_devel" type="ur5e_node.py" name="ur5e_node" ns="giacomo" output="screen"/>
+</launch>

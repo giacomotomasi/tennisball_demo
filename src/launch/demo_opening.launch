@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="zed_devel" type="stream_apple_det.py" name="zed_apple_detection" ns="giacomo" />
+  <node pkg="zed_devel" type="depth_center.py" name="zed_get_depth" ns="giacomo" output="screen"/>
+</launch>

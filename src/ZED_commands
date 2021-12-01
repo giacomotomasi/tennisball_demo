@@ -1,0 +1,7 @@
+ZED commands:
+
+#Starting the ZED node
+roslaunch zed_wrapper zed2.launch
+
+#Displaying ZED data
+roslaunch zed_display_rviz display_zed2.launch ---> va in conflitto con riga 4
